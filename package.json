@@ -4,13 +4,14 @@
   "description": "receive and process event data to send a transactional email",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive"
   },
   "author": "Asad Saleem",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.831.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dirty-json": "^0.9.2",
     "dotenv": "^8.2.0",
     "lambda-log": "^2.3.1",
